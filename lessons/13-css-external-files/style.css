@@ -1,0 +1,14 @@
+
+ .centerr{
+     text-align: center;
+    }
+  
+ nav a:hover {
+     color: blueviolet;
+ }
+ nav a {
+    color:red;
+}
+ p{
+     font-size: 18px;
+ }
