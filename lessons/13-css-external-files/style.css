@@ -2,13 +2,16 @@
  .centerr{
      text-align: center;
     }
+    nav a {
+        color:red;
+    }
+    .navigate a.active {
+        color:green;
+    }
   
- nav a:hover {
-     color: blueviolet;
+ .navigate a:hover {
+     color: blue;
  }
- nav a {
-    color:red;
-}
- p{
+  p{
      font-size: 18px;
  }
