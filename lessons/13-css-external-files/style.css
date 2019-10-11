@@ -1,0 +1,17 @@
+
+ .centerr{
+     text-align: center;
+    }
+    nav a {
+        color:red;
+    }
+    .navigate a.active {
+        color:green;
+    }
+  
+ .navigate a:hover {
+     color: blue;
+ }
+  p{
+     font-size: 18px;
+ }
