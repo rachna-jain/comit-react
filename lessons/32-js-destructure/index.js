@@ -1,0 +1,12 @@
+const favoriteFruits= prompt("Enter your 5 favourite fruits separated by comma:");
+let fruitArray=(favoriteFruits.split(','));
+console.log(fruitArray);
+[firstFruit,secondFruit,thirdFruit,...fruitArrayinfo]=fruitArray;
+//let firstFruit=fruitArray[0];
+//console.log(firstFruit);
+//let secondFruit=fruitArray[1];
+//console.log(secondFruit);
+//let thirdFruit= fruitArray[2];
+//console.log(thirdFruit);
+alert("your topr 3 fruits are " + firstFruit+", " + secondFruit+", " +thirdFruit);
+alert("The fruits that didnot make to the top 3 are "+ fruitArrayinfo);
